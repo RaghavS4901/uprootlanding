@@ -7393,53 +7393,17 @@ body.it-magic-cursor #magic-cursor {
 .it-category-mobile-menu ul li:not(:last-child) > a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-.it-menu-mobile ul li.has-dropdown > a .dropdown-toggle-btn,
-.it-category-mobile-menu ul li.has-dropdown > a .dropdown-toggle-btn {
-  position: absolute;
-  right: 0;
-  top: 25%;
-  transform: translateY(-2px);
-  font-size: 18px;
-  color: #fff;
-  font-family: "Font Awesome 5 Pro";
-  transition: all 0.3s ease-in-out;
-  z-index: 1;
-  width: 25px;
-  height: 25px;
-  line-height: 21px;
-  text-align: center;
-  border: 1px solid rgba(176, 162, 162, 0.35);
-  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-.it-menu-mobile ul li.has-dropdown > a .dropdown-toggle-btn i,
-.it-category-mobile-menu ul li.has-dropdown > a .dropdown-toggle-btn i {
-  transition: all 0.3s ease-in-out;
-  margin-left: 2px;
-}
-.it-menu-mobile ul li.has-dropdown > a .dropdown-toggle-btn.dropdown-opened i,
-.it-category-mobile-menu ul li.has-dropdown > a .dropdown-toggle-btn.dropdown-opened i {
-  transform: rotate(90deg);
-}
-.it-menu-mobile ul li.has-dropdown > a .dropdown-toggle-btn:hover,
-.it-category-mobile-menu ul li.has-dropdown > a .dropdown-toggle-btn:hover {
-  background-color: var(--it-theme-1);
-  border-color: var(--it-theme-1);
-  color: var(--it-common-white);
-}
-.it-menu-mobile ul li.has-dropdown > a .dropdown-toggle-btn:hover i,
-.it-category-mobile-menu ul li.has-dropdown > a .dropdown-toggle-btn:hover i {
-  color: var(--it-common-white);
-}
+
+
+
+
+
+
 .it-menu-mobile ul li.has-dropdown > a.expanded,
 .it-category-mobile-menu ul li.has-dropdown > a.expanded {
   color: var(--it-theme-1);
 }
-.it-menu-mobile ul li.has-dropdown > a.expanded .dropdown-toggle-btn.dropdown-opened,
-.it-category-mobile-menu ul li.has-dropdown > a.expanded .dropdown-toggle-btn.dropdown-opened {
-  background-color: var(--it-theme-1);
-  border-color: var(--it-theme-1);
-  color: var(--it-common-white);
-}
+
 .it-menu-mobile ul li.has-dropdown > a.expanded .dropdown-toggle-btn.dropdown-opened i,
 .it-category-mobile-menu ul li.has-dropdown > a.expanded .dropdown-toggle-btn.dropdown-opened i {
   color: var(--it-common-white);
@@ -7586,10 +7550,7 @@ body.it-magic-cursor #magic-cursor {
 .it-category-mobile-menu ul li:hover > a::after {
   color: var(--it-theme-1);
 }
-.it-menu-mobile ul li:hover > a .dropdown-toggle-btn i,
-.it-category-mobile-menu ul li:hover > a .dropdown-toggle-btn i {
-  color: var(--it-theme-1);
-}
+
 .it-menu-mobile ul li:hover .mega-menu,
 .it-category-mobile-menu ul li:hover .mega-menu {
   visibility: visible;
