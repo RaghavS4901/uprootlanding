@@ -400,6 +400,22 @@ input[type=color] {
   position: relative;
 }
 
+.match-now-btn {
+    background-color: #FF7F11; /* Vibrant orange */
+    color: white; /* White text for contrast */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.match-now-btn:hover {
+    background-color: #E86E00; /* Slightly darker orange on hover */
+}
+
+
 .p-absolute {
   position: absolute;
 }
