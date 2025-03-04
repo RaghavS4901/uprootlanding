@@ -13759,7 +13759,7 @@ body.it-magic-cursor #magic-cursor {
 /*  23. platform css start
 /*----------------------------------------*/
 .cr-platform-bg {
-  background-color: #143230;
+  background-color: #000435;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .cr-platform-bg {
